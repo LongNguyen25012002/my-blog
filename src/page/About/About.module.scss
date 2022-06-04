@@ -1,0 +1,28 @@
+.banner-hero{
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.image{
+    flex: 0 0 30%;
+}
+
+.details-mes{
+    flex: 0 0 66%;
+
+    p{
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

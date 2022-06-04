@@ -1,0 +1,108 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Tiro+Gurmukhi:ital@0;1&display=swap');
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-family:  'Tiro Gurmukhi', serif;
+    --paddingSection : 62px;
+    --text-color: #efefef;
+    --text-gray-color: #768088;
+    --orange-color:#dd783f;
+    --purple-color: #a872b7;
+    --blue-color: #4aaec2;
+    --yelow-color:#e6c728;
+    --plum-color:#d25f7c;
+    --gren-color:#49ae5c;
+    --font-text-small: 'Raleway', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+   
+}
+
+body{
+    font-family: var(--font-family);
+    height: 100%;
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+/*
+7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+font: inherit;
+font-family: var(--font-text-small);
+}
+
+input,button{
+    outline: none;
+    border: none;
+}
+/*
+8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+color: #555;
+}
+/*
+9. Create a root stacking context
+*/
+#root, #__next {
+isolation: isolate;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+svg{
+    fill: currentColor;
+}
+
+.container{
+    max-width: 940px;
+    padding: 0 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.d-flex-sp{
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}

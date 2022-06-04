@@ -1,0 +1,16 @@
+
+.wrapper{
+    --padding-bt: 60px;
+    --section-bg: #f7f7f7;
+    padding: var(--padding-bt) 0;
+    background-color: var(--section-bg);
+}
+
+.section-title{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    font-family: var(--font-text-small);
+    font-weight: 500;
+}

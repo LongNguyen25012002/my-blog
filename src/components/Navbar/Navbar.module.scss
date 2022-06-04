@@ -1,0 +1,33 @@
+.inner_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0;
+
+    .Logo-link{
+        font-size: 2.6rem;
+        color: #fff;
+        line-height: 1;
+    }
+    
+    .list-menu{
+        display: flex;
+        align-items: center;
+    }
+    
+    .item-menu{
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        color: #fff;
+        transition: all 0.2s linear;
+
+        &:hover{
+            transform: translatey(-2px);
+        }
+
+    }
+}
+
+.item-menu .active{
+    color: #265104;
+}

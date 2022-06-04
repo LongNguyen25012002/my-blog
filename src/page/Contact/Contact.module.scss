@@ -1,0 +1,46 @@
+.banner-hero{
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.connect-info{
+    flex: 0 0 48%;
+
+    h3{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    p{
+        margin-bottom: 15px;
+        font-size: 1.5rem;
+    }
+
+    a{
+        display: block;
+        width: fit-content;
+        font-size: 1.3rem;
+        color: #4a4a4a;
+        margin-bottom: 10px;
+
+        &:hover{
+            color: #ec7272;
+        }
+    }
+}
+
+.form-submit{
+    flex: 0 0 48%;
+}

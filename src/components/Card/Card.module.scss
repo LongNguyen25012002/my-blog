@@ -1,0 +1,118 @@
+
+.warpper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
+    .card{
+        max-width: 31%;
+        flex: 0 0 31%;
+        position: relative;
+        transition: all 0.2s linear;
+        border-radius: 3px;
+        overflow: hidden;
+
+        &:hover{
+            transform: translateY(-5px);
+            box-shadow: 1px 2px 8px rgb(225, 225, 225);
+        }
+    
+        .image{
+            padding-bottom: 50%;
+            background-repeat: none;
+            background-size: cover;
+            background-position: 0 25%;
+        }
+    }
+
+    .post-type{
+        position: absolute;
+        top:10px;
+        left: 10px;
+        padding: 6px;
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        border-radius: 3px;
+    }
+
+    .Adventure{
+        background-color: var(--orange-color);
+    }
+    
+    .PHOTOGRAPHY{
+        background-color: var(--purple-color);
+    }
+    
+    .relaxation{
+        background-color: var(--blue-color);
+    }
+
+    .travel{
+        background-color: var(--gren-color);
+    }
+
+    .vacation{
+        background-color: var( --plum-color);
+    }
+
+    .nature{
+        background-color: var(--yelow-color);
+    }
+
+    .details{
+        border-left:1px solid rgb(225, 225, 225);
+        border-right:1px solid rgb(225, 225, 225);
+        padding: 10px;
+        background-color: #fff;
+
+        h3{
+            display: inline-block;
+            margin-bottom: 6px;
+            color: #101315;
+            font-size: 16px;
+            line-height: 21px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        p{
+            overflow: hidden;
+            height: 40px;
+            color: #7a7a7a;
+            font-size: 13px;
+            line-height: 19px;
+        }
+    }
+
+    .author-wwith-post{
+        padding: 6px 13px;
+        border-top: 1px solid #efefef;
+        background-color: #fcfcfc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border:1px solid rgb(225, 225, 225);
+        border-radius: 0 0 3px 3px;
+    }
+
+    .wrapper-author{
+        display: flex;
+        align-items: center;
+
+        img{
+            width: 26px;
+            margin-top: 5px;
+            margin-right: 10px;
+            margin-bottom: 0px;
+            border-radius: 60px;
+        }
+    }
+
+    .name-auhtor,
+    .date-up{
+        color: #999;
+        font-size: 12px;
+    }
+}

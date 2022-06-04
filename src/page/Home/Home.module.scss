@@ -1,0 +1,102 @@
+
+.banner-hero{
+    height: 500px;
+    padding: 184px;
+    text-align: center;
+
+    .hero-heading{
+        margin-bottom: 14px;
+        color: #fff;
+        font-size: 5rem;
+        letter-spacing: 2px;
+    }
+
+    .hero-mes{
+        margin-bottom: 30px;
+        color: hsla(0, 0%, 100%, 0.63);
+        font-size: 1.8rem;
+        font-weight: 300;
+        font-family: var(--font-text-small);
+    }
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+
+.card{
+    width: 100%;
+    height: 280px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+
+.type-post{
+    position: absolute;
+    top:20px;
+    left:20px;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    background-color: inherit;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.Adventure{
+    background-color: var(--orange-color);
+}
+
+.PHOTOGRAPHY{
+    background-color: var(--purple-color);
+}
+
+.title-post{
+    display: block;
+    margin-bottom: 4px;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 27px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.des-post{
+    padding-right: 44px;
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.box img{
+    width: 26px;  
+    border-radius: 60px;
+    margin-right: 15px;
+}
+
+.name-author,
+.item-post{
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 1.2rem;
+}

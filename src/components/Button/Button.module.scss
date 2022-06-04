@@ -1,0 +1,42 @@
+.wrapper{
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 31px;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    user-select: none;
+    transition: all 0.2s linear;
+    background-color: transparent;
+    --btn-hover-color: #f0f0f0;
+
+    + .wrapper{
+        margin-left: 16px;
+    }
+
+    &.disabled{
+        pointer-events: none;
+        opacity: 0.5;
+    }
+}
+
+.defaultState{
+    color: var(--text-gray-color);
+    font-family: var(--font-family);
+
+     &:hover{
+        color: #243039;
+        background-color: var(--btn-hover-color);
+     }
+}
+
+.primary{
+    min-width: 100px;
+    background-color: var(--orange-color);
+    color: var(--text-color);
+
+    &:hover{
+        background-color: #f17228;
+    }
+}

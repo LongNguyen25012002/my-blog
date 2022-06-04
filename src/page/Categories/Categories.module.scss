@@ -1,0 +1,46 @@
+.banner-hero{
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.card{
+    max-width: 30%;
+    flex:  0 0 30%;
+    height: 150px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    h3{
+        font-size: 2.3rem;
+        color: #fff;
+        text-transform: capitalize;
+        z-index: 1;
+    }
+
+    &::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(73, 73, 73, 0.3);
+        transition: all 0.2s linear;
+    }
+
+    &:hover::after{
+        background-color: transparent ;
+    }
+}
+
